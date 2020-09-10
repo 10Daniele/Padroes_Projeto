@@ -6,3 +6,4 @@ A partir de composites (objeto complexo), temos outros objetos que podem ser out
 
 Para uma melhor compreensão, temos o seguinte exemplo:
 
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Composite/imagem.jpg)
