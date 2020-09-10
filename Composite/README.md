@@ -7,3 +7,5 @@ A partir de composites (objeto complexo), temos outros objetos que podem ser out
 Para uma melhor compreensão, temos o seguinte exemplo:
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Composite/imagem.jpg)
+
+No sistema acima, temos as pastas e arquivos. As pastas podem conter arquivos e também podem conter outras pastas. Porém, quando chegamos ao nível de arquivos, não existe a possibilidade de incluir mais pastas ou arquivos, portando, finaliza-se a profundidade deste “ramo”. Este padrão propõe tornar todos os objetos semelhantes, de modo a facilitar a obtenção de dados entre o que está na “base” da árvore e o que está nas folhas.
