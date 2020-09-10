@@ -1,1 +1,1 @@
-#Exemplo de aplicação do padrão de projeto Composite
+# Exemplo de aplicação do padrão de projeto Composite
