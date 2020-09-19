@@ -16,7 +16,7 @@ Classification: Padrão comportamental
 
 ### Applicability
 
-
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/TemplateMethod/imagem.jpg)
 
 ### Structure
 
@@ -30,5 +30,6 @@ A estrutura do padrão Template Method é a seguinte:
 
 ### Sample Code
 
+Exemplo de sucos e seus ingredientes: [Sucos](https://github.com/10Daniele/Padroes_Projeto/tree/master/TemplateMethod/Exemplo_Suco)
 
 
