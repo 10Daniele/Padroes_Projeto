@@ -44,7 +44,7 @@ Composite: elemento que possui filhos, que delegará funções para os mesmos.
 
 ### Sample Code
 
-Exemplo tratado de arquivos e pastas: https://github.com/10Daniele/Padroes_Projeto/tree/master/Composite/Exemplo
+Exemplo tratado de arquivos e pastas: ![Arquivos e pastas](https://github.com/10Daniele/Padroes_Projeto/tree/master/Composite/Exemplo)
 
 Exemplo de árvore de maçã:
 
