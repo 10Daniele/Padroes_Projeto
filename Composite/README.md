@@ -30,7 +30,7 @@ No sistema acima, temos as pastas e arquivos. As pastas podem conter arquivos e 
 
 A estrutura do padrão Composite é a seguinte:
 
-![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Composite/imagem.jpg)
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Composite/Structure.png)
 
 ### Participants
 
