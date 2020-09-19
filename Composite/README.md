@@ -2,6 +2,10 @@
 
 #### Pattern Name and Classification
 
+Pattern Name: Composite
+
+Classification: Padrão estrutural
+
 #### Intent
 
 #### Motivation
@@ -20,9 +24,21 @@ No sistema acima, temos as pastas e arquivos. As pastas podem conter arquivos e 
 
 #### Structure
 
+
+
 #### Participants
+
+Component:
+
+Leaf:
+
+Client:
+
+Composite:
 
 #### Sample Code
 
+Exemplo tratado em aula:
 
+Exemplo de criado:
 
