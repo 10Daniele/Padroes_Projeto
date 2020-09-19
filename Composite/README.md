@@ -8,11 +8,15 @@ Classification: Padrão estrutural
 
 ### Intent
 
+Realizar o tratamento de nós folhas e composições de forma semelhante, como se cada um deles fosse um objeto individualizado.
+
 ### Motivation
+
+O padrão de projeto Composite possui como pressuposto organizar objetos em modelo árvore, partindo de um eixo principal e acoplando outros objetos semelhantes.
 
 ### Applicability
 
-O padrão de projeto Composite possui como pressuposto organizar objetos em modelo árvore, partindo de um eixo principal e acoplando outros objetos semelhantes. É como uma hierarquia, sendo que o eixo principal é algo mais complexo e partindo dele, temos outros objetos que podem ser tão complexos quanto o principal ou objetos de complexidades menores (composite e leaf). 
+Este padrão é como uma hierarquia, sendo que o eixo principal é algo mais complexo e partindo dele, temos outros objetos que podem ser tão complexos quanto o principal ou objetos de complexidades menores (composite e leaf). 
 
 A partir de composites (objeto complexo), temos outros objetos que podem ser outros composites ou leafs. A leaf (folha) não pode abrigar componentes dentro, pois são estruturas mais simples, portanto, quando temos uma folha, significa que não existem mais camadas. 
 
@@ -28,13 +32,13 @@ No sistema acima, temos as pastas e arquivos. As pastas podem conter arquivos e 
 
 ### Participants
 
-Component:
+Component: é a estrutura que aloca os componentes comuns entre elementos complexos e elementos mais simples. É o local de declaração da interface de acesso e gerenciamento dos componentes filhos.
 
-Leaf:
+Leaf: é o componente que não possui sub-elementos, ou seja, não tem filhos. É nesta classe que são definidos os comportamentos da estrutura mais básica do sistema.
 
-Client:
+Client: classe que manipulará os outros componentes.
 
-Composite:
+Composite: elemento que possui filhos, que delegará funções para os mesmos.
 
 ### Sample Code
 
