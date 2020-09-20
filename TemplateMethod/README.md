@@ -26,7 +26,9 @@ A estrutura do padrão Template Method é a seguinte:
 
 ### Participants
 
+FrameworkClass: nesta classe, o template method é definido. Este template terá a função de chamar os demais métodos em determinada ordem. 
 
+ApplicationClass: esta classe pode sobrescrever as etapas especificadas na FrameworkClass sempre que necessário.
 
 ### Sample Code
 
