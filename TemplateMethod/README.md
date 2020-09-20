@@ -8,15 +8,21 @@ Classification: Padrão comportamental
 
 ### Intent
 
-
+Criar uma super classe esqueleto (classe preincipal), com o template method e subclasses que poderão sobrescrever e alterar a ordem das etapas inseridas na classe principal.
 
 ### Motivation
 
-
+O padrão de projeto Template Method permite o reaproveitamento de metodos quando as subclasses possuem estruturas parecidas, tendo uma classe principal com métodos que poderão ser utilizados e aproveitados pelas classes "filhas". 
 
 ### Applicability
 
+Com foi dito acima, template method utiliza uma classe esqueleto e outras subclasses que utilizarão metodos dessa classe esqueleto. Abaixo, temos a exemplificação de uma possível utilização do template method:
+
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/TemplateMethod/imagem.jpg)
+
+Para se fazer sucos, utilizamos diversos ingredientes. Porém, alguns deles podem ser comuns entre cada tipo de suco, como água, gelo, açúcar. O template method surge para evitar a criação do mesmo código diversas vezes, ou seja, sem o template, teríamos que criar os métodos água, gelo, açúcar cada vez que precisássemos criar um novo tipo de suco. 
+
+Cada subclasse pode utilizar apenas métodos que serão necessários para si, não sendo obrigatório utilizar todos os métodos da classe principal. Um exemplo é o suco de melancia, que não irá precisar de água para ser preparado, ou o suco de laranja, que não precisa de açúcar. Cada uma dessas classes utiliza apenas o que realmente é importante para si.
 
 ### Structure
 
