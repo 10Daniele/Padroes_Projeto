@@ -16,7 +16,7 @@ Classification: Padrão criacional
 
 ### Applicability
 
-
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Singleton/imagem.jpg)
 
 ### Structure
 
