@@ -34,9 +34,9 @@ A estrutura do padrão Singleton é a seguinte:
 
 ### Participants
 
-Singleton: Nesta classe é declarado o getInstance, um método "chave", ou seja, é a única maneira de se acessar o objeto singleton. A classe Singleton é a única dese padrão.
+Singleton: nesta classe é declarado o getInstance, um método "chave", ou seja, é a única maneira de se acessar o objeto singleton. A classe Singleton é a única dese padrão.
 
-Client: É a classe que irá utilizar o Singleton (no exemplo a seguir, a classe cliente é a Main). Esta classe utilizará apenas a instância da classe Singleton.
+Client: é a classe que irá utilizar o Singleton (no exemplo a seguir, a classe cliente é a Main). Esta classe utilizará apenas a instância da classe Singleton.
 
 ### Sample Code
 
