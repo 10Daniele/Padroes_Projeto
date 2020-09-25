@@ -20,7 +20,7 @@ O padrão Singleton é bastante utilizado quando é necessário um controle de a
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Singleton/imagem.jpg)
 
-Podemos perceber que apenas a pessoa que está controlando a lista de entrada terá acesso ao arquivo, garantindo a integridade dos dados, pois apenas ela possui o conector de acesso à classe Singleton. Neste exemplo, temos a "Lais" que deseja entrar em uma sala, mas para isso, precisa dizer seu nome na entrada, que é controlada por uma pessoa responsável. 
+Podemos perceber que apenas a pessoa que está controlando a lista de entrada terá acesso ao arquivo, garantindo a integridade dos dados, pois apenas ela possui o conector de acesso à classe Singleton. Neste exemplo, temos a "Lais" que deseja entrar na sala, mas para isso, precisa dizer seu nome na entrada, que é controlada por uma pessoa responsável. 
 
 Sem o padão Singleton, outra pessoa poderia acessar o arquivo a partir de outra instância, comprometendo a integridade dos dados, sendo que caso uma Pessoa X e uma Pessoa Y estejam acessando o arquivo, e que a X inclua um nome e logo em seguida a Y também inclua um nome, o nome da incluso pela Pessoa X se perderia no processo, visto que Y estava com uma versão "desatualizada" do arquivo.
 
