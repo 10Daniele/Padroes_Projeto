@@ -8,11 +8,11 @@ Classification: Padrão criacional
 
 ### Intent
 
-
+A intenção do padrão Singleton é garantir que exista apenas uma determinada instância de uma classe, ou seja, não existirá mais instâncias, o que permite que haja um ponto de acesso global para essa instância criada. 
 
 ### Motivation
 
-
+Com este padrão, nenhuma outra classe do sistema terá acesso à instância da classe Singleton, de modo a ser possível controlar a meneira que essa classe será instaciada, sendo seu contrutor privado e sua instância pública. Também será posível evitar problemas de referênca da instância, visto que sua utilização será controlada.
 
 ### Applicability
 
