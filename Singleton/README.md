@@ -22,7 +22,7 @@ Classification: Padrão criacional
 
 A estrutura do padrão Singleton é a seguinte:
 
-![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/TemplateMethod/Structure.png)
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Singleton/Structure.png)
 
 ### Participants
 
