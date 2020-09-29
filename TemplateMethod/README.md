@@ -42,4 +42,4 @@ ApplicationClass: esta classe pode sobrescrever as etapas especificadas na Frame
 
 Exemplo de sucos e seus ingredientes: [Sucos](https://github.com/10Daniele/Padroes_Projeto/tree/master/TemplateMethod/Exemplo_Suco)
 
-
+No exemplo acima, temos a classe Suco, que funciona como um molde para cada tipo de suco (limão, laranja e melancia), sendo que os sucos utilizam algumas características da classe Suco, mas não precisam usar todas as características. Exemplo: o suco de melancia não utiliza água, mas utiliza gelo.
