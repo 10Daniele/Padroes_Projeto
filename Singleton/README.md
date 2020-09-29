@@ -42,4 +42,4 @@ Client: é a classe que irá utilizar o Singleton (no exemplo a seguir, a classe
 
 Exemplo da lista de entrada: [Lista de Entrada](https://github.com/10Daniele/Padroes_Projeto/tree/master/Singleton/ListaEntrada)
 
-Neste exemplo, é possível perceber que a a classe ListaEntrada (singleton) será acessível somente à classe Main, que possui a "chave" de acesso à instância da classe com o padrão singleton.
+Neste exemplo, é possível perceber que a classe ListaEntrada (singleton) será acessível somente à classe Main, que possui a "chave" de acesso à instância da classe com o padrão singleton.
