@@ -48,3 +48,5 @@ Exemplo tratado em aula de arquivos e pastas: [Arquivos e Pastas](https://github
 
 Exemplo de árvore de maçã: [Maçã e Galho](https://github.com/10Daniele/Padroes_Projeto/tree/master/Composite/Exemplo_Maca)
 
+Os exeplos acima demonstram o comportamento do padrão Composite. No exemplo de arquivos e pastas, temos as pastas, que são estruturas mais compostas e os arquivos, que são estruturas mais simples, sendo que a pasta herda características do arquivo. No exemplo da árvore de maçã, o galho é a estrutura composta e a maçã e a estrutura simples. Galho herda características da maçã.
+
