@@ -40,4 +40,4 @@ Adapter:
 
 ### Sample Code
 
-Exemplo de uma fábrica de blusas: [Loja de Blusas](https://github.com/10Daniele/Padroes_Projeto/tree/master/Adapter/Exemplo_FabricaBlusas)
+Exemplo de uma fábrica de blusas: [Fábrica de Blusas](https://github.com/10Daniele/Padroes_Projeto/tree/master/Adapter/Exemplo_FabricaBlusas)
