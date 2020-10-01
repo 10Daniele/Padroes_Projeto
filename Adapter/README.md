@@ -30,13 +30,13 @@ Uma das variações do padrão Adapter é o Adapter de Classe, que possui a segu
 
 ### Participants
 
-Target:
+Target: é a interface responsável por definir um domínio que será utilizado pela classe Client.
 
-Client:
+Client: esta classe visualiza apenas a interface Target. 
 
-Adaptee:
+Adaptee: é inacessível à classe Client. Consta uma interface ou contrato que precisarão ser adaptados (não seriam utilizadas caso não existisse a classe Adapter)
 
-Adapter:
+Adapter: classe que realiza a adaptação do Adaptee, para que possa ser utilizado pela interface Target, tornando-o acessível.
 
 ### Sample Code
 
