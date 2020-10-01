@@ -16,7 +16,7 @@ Classification: Padrão estrutural
 
 ### Applicability
 
-
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Adapter/imagem.jpg)
 
 ### Structure
 
