@@ -41,3 +41,5 @@ Adapter: classe que realiza a adaptação do Adaptee, para que possa ser utiliza
 ### Sample Code
 
 Exemplo de uma fábrica de blusas: [Fábrica de Blusas](https://github.com/10Daniele/Padroes_Projeto/tree/master/Adapter/Exemplo_FabricaBlusas)
+
+Exemplo de adaptador de tomada (exemplo tratado em aula): [Adaptador de Tomada](https://github.com/10Daniele/Padroes_Projeto/tree/master/Adapter/Exemplo_AdaptadorTomada)
