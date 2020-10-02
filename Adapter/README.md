@@ -16,6 +16,11 @@ Criação de uma classe adaptadora, que realiza a conversão de uma interface de
 
 ### Applicability
 
+O padrão adapter, como dito anteriormente, utiliza uma classe que realiza as apadtações necessárias para que a classe Cliente possa acessar uma interface diferente da interface padrão. Para melhor compreensão, temos um exemplo de adaptador de tomada. 
+
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Adapter/imagem2.jpg)
+aaa
+
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Adapter/imagem.jpg)
 
 ### Structure
