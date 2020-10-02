@@ -8,11 +8,11 @@ Classification: Padrão estrutural
 
 ### Intent
 
-
+A intenção deste padrão é permitir que classes com interfaces imcompatíveis consigam colaborar e trabalhar juntas.
 
 ### Motivation
 
-
+Criação de uma classe adaptadora, que realiza a conversão de uma interface de forma organizada (encapsulando e escondendo os aspectos complexos dessa adaptação), para que essa interface possa ser utilizada e vista pela classe Cliente.
 
 ### Applicability
 
