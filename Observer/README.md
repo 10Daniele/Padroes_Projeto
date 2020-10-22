@@ -29,4 +29,4 @@ A estrutura do padrão Observer é a seguinte:
 
 ### Sample Code
 
-Exemplo de conversão de moedas: [Convertendo Moedas](https://github.com/10Daniele/Padroes_Projeto/tree/master/TemplateMethod/Exemplo_Suco)
+Exemplo de conversão de moedas: [Convertendo Moedas](https://github.com/10Daniele/Padroes_Projeto/tree/master/Observer/Exemplos_Converter_Moeda)
