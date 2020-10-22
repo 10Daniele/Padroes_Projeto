@@ -14,14 +14,14 @@ Classification: Padrão comportamental
 
 ### Applicability
 
-![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/TemplateMethod/imagem.jpg)
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Observer/Structure.png)
 
 
 ### Structure
 
 A estrutura do padrão Observer é a seguinte:
 
-![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/TemplateMethod/Structure.png)
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Observer/Structure.png)
 
 ### Participants
 
