@@ -29,11 +29,11 @@ A estrutura do padrão Observer é a seguinte:
 
 ### Participants
 
-Subject: nesta classe consnta os eventos e seus estados, que serão captados pela interface Observer 
+Subject: nesta classe consnta os eventos e seus estados, que serão captados pela interface Observer.
+ 
+Observer: é uma interface responsável por notificar os observadores concretos quando ocorre alguma mudança de estado. Nesta interface, existem os métodos que serão úteis para os ConcreteObservers.
 
-Observer: é uma interface responsável por 
-
-ConcreteObserverX: 
+ConcreteObserverX: são as classes que receberão a notificação da classe Subject, através da interface Observer e realização alguma ação a partir desta notificação. 
 
 ### Sample Code
 
