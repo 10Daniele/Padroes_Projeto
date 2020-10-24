@@ -16,10 +16,11 @@ O padrão observer possui uma classe que será observada por outras classes, e e
 
 ### Applicability
 
-
+Utiliza-se o padrão Observer quando é necessário "avisar" várias classes sobre determinado evento que ocorre em outra classe X. Para evitar que as classes que precisam ser avisadas verifiquem constantemente a classe X, temos o auxílio do padrão Observer. No exemplo abaixo, temos a conversão da moeda real para outras moedas. O nosso evento é a troca do valor em Real.
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Observer/imagem.png)
 
+Sem o padrão Observer, as classes que realizam as conversões precisariam verificar constantemente a classe principal para confirmar se o valor em real foi alterado. Com este padrão, as classes receberão uma notificação apenas no momento da mudança de estado.
 
 ### Structure
 
