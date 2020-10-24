@@ -8,8 +8,10 @@ Classification: Padrão comportamental
 
 ### Intent
 
+A intenção deste padrão é promover a comunicação entre classes, notificando-as quando algum evento ocorre.
 
 ### Motivation
+
 
 
 ### Applicability
