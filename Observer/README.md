@@ -12,9 +12,11 @@ A intenção deste padrão é promover a comunicação entre classes, notificand
 
 ### Motivation
 
-
+O padrão observer possui uma classe que será observada por outras classes, e essas classes observadoras ficarão aguardando até que a classe observada realize alguma mudança de estado, sendo que quando isso ocorrer, as classes que estão observando serão notificadas. Uma das características deste padrão é não manter as classes com baixo acoplamento, a fim de facilitar o encapsulamento do código.
 
 ### Applicability
+
+
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Observer/imagem.png)
 
