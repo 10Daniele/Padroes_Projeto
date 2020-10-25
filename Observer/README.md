@@ -39,3 +39,5 @@ ConcreteObserverX: são as classes que receberão a notificação da classe Subj
 ### Sample Code
 
 Exemplo de conversão de moedas: [Convertendo Moedas](https://github.com/10Daniele/Padroes_Projeto/tree/master/Observer/Exemplos_Converter_Moeda)
+
+No exemplo acima, temos a conversão da moeda real para outras moedas, sendo que quado a moeda real muda de valor, os conversores recebem essa mudança e efetuam a conversão. 
