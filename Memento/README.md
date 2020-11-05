@@ -14,7 +14,7 @@ Classification: Padrão comportamental
 
 ### Applicability
 
-
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Memento/imagem.png)
 
 ### Structure
 
