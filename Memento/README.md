@@ -26,7 +26,7 @@ A estrutura do padrão Adapter é a seguinte:
 
 Memento:
 
-Originator:
+Originator: 
 
 Caretaker:
 
