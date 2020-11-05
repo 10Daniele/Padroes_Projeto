@@ -24,7 +24,11 @@ A estrutura do padrão Adapter é a seguinte:
 
 ### Participants
 
+Memento:
 
+Originator:
+
+Caretaker:
 
 ### Sample Code
 
