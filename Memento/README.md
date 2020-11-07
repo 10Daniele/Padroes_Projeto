@@ -20,7 +20,13 @@ Este padrão é utilizado quando há a necessidade de salvar certos estados de u
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Memento/imagem.png)
 
+Quando é preciso salvar o saldo, o sistema envia esse saldo para uma pilha, e caso haja a necessidade de verificar o estado do saldo em determinado momento, é possível ter acesso a esse estado.
+
+Outro exemplo de aplicação deste padrão é a necessidade de um restaurante gravar cardápios de alguns dias específicos da semana. Temos o exemplo abaixo:
+
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Memento/imagem2.png)
+
+Neste caso era preciso salvar os cardápios de domingo, terça-feira e quinta-feira, portanto, estes cardápios foram enviados para a pilha. O estado atual do cardápio é sábado, portanto ele ainda não foi descartado. Já os outros dias da semana, como não houve a necessidade de gravação, não foram salvos.
 
 ### Structure
 
