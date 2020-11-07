@@ -44,5 +44,7 @@ Caretaker:
 
 ### Sample Code
 
+Exemplo do saldo de uma conta bancária:
 
+Exemplo do cardápio de um restaurante: 
 
