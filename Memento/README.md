@@ -30,7 +30,7 @@ Neste caso era preciso salvar os cardápios de domingo, terça-feira e quinta-fe
 
 ### Structure
 
-A estrutura do padrão Adapter é a seguinte:
+A estrutura do padrão Memento é a seguinte:
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Memento/Structure.png)
 
