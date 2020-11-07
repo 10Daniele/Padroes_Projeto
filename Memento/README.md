@@ -16,6 +16,8 @@ Classification: Padrão comportamental
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Memento/imagem.png)
 
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Memento/imagem2.png)
+
 ### Structure
 
 A estrutura do padrão Adapter é a seguinte:
