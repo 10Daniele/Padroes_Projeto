@@ -44,7 +44,7 @@ Caretaker:
 
 ### Sample Code
 
-Exemplo do saldo de uma conta bancária:
+Exemplo do saldo de uma conta bancária: [Saldo](https://github.com/10Daniele/Padroes_Projeto/tree/master/Memento/Exemplo_Saldo)
 
-Exemplo do cardápio de um restaurante: 
+Exemplo do cardápio de um restaurante: [Cardápio de Restaurante](https://github.com/10Daniele/Padroes_Projeto/tree/master/Memento/Exemplo_Cardapio)
 
