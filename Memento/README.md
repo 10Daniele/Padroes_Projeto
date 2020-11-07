@@ -36,11 +36,11 @@ A estrutura do padrão Adapter é a seguinte:
 
 ### Participants
 
-Memento:
+Memento: a classe Memento realiza a captura do estado do objeto presente na classe originator, sendo que esse estado pode ser restaurado quando for necessário.
 
-Originator: 
+Originator: nessa classe, o estado atual do objeto é salvo. É aqui que o método que será utilizado pela classe memento é definido. Essa classe pode salvar seu próprio estado e tabém pode restaurar estados já salvos.
 
-Caretaker:
+Caretaker: responsável por prestar auxílo às classes Memento e Originator, a classe Carataker realiza a armazenagem (em forma de pilha) e restauração dos estados da classe Originator. 
 
 ### Sample Code
 
