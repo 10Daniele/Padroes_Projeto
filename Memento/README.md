@@ -48,3 +48,4 @@ Exemplo do saldo de uma conta bancária: [Saldo](https://github.com/10Daniele/Pa
 
 Exemplo do cardápio de um restaurante: [Cardápio de Restaurante](https://github.com/10Daniele/Padroes_Projeto/tree/master/Memento/Exemplo_Cardapio)
 
+Nos exemplos acima, temos a armazenagem do saldo de uma conta bancária e a armazenagem de cardápios específicos de um restaurante. Tanto os saldos quanto os cardápios salvos são alocados em forma de pilha, facilitando consultas futuras. 
