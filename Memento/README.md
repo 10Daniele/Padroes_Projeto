@@ -8,9 +8,11 @@ Classification: Padrão comportamental
 
 ### Intent
 
+A intenção deste padrão de projeto é criar uma forma de "backup" de estados de um objeto, permitindo que o programa possua uma recuperação, caso ocorram possíveis erros. 
 
 ### Motivation
 
+O padrão memento permite que determinado estado de um objeto seja salvo, sempre buscando o não comprometimento dos princípios de encapsulamento 
 
 ### Applicability
 
