@@ -38,3 +38,7 @@ ConcreteState: classes que irão efetivamente implementar a interface estado e s
 
 ### Sample Code
 
+Exemplo dos Cupcakes: [Fabricando Cupcakes](https://github.com/10Daniele/Padroes_Projeto/tree/master/State/Exemplo_Cupcake)
+
+Exemplo abordado em aula: [Caminho do Pacote](https://github.com/10Daniele/Padroes_Projeto/tree/master/State/Exemplo_Pacote)
+
