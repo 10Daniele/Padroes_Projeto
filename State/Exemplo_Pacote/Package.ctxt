@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Package
+comment1.params=newState
+comment1.target=void\ setState(PackageState)
+comment2.params=name
+comment2.target=Package(java.lang.String)
+comment3.params=
+comment3.target=void\ previousState()
+comment4.params=
+comment4.target=void\ nextState()
+comment5.params=
+comment5.target=void\ printStatus()
+numComments=6

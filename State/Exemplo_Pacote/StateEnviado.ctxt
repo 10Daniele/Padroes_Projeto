@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=StateEnviado
+comment1.params=pkg
+comment1.target=StateEnviado(Package)
+comment2.params=
+comment2.target=void\ printStatus()
+comment3.params=
+comment3.target=void\ previousState()
+comment4.params=
+comment4.target=void\ nextState()
+numComments=5
