@@ -12,7 +12,7 @@ O padrão State busca criar uma máquina de estado, implementando classes para c
 
 ### Motivation
 
-Este padrão possui uma interface State, que contém alguns atributos pré-definidos. Estes atributos necessáriamente serão utilizados nos estados que determinado objeto pode adquirir. Com isso, torna-se possível fazer o gerenciamento de estados, possibilitando determinado comportamento para um objeto de acordo com seu estado atual.
+Este padrão possui uma interface State, que contém alguns atributos pré-definidos. Estes atributos necessáriamente serão utilizados nos estados que determinado objeto pode adquirir. Com isso, torna-se possível fazer o gerenciamento de estados, possibilitando determinado comportamento para um objeto de acordo com seu estado atual. Podemos dizer também que uma das principais motivações desse padrão, é reduzir a complexidade ciclomática do programa, ou seja, reduzir caminhos independentes que o sistema pode ter.
 
 ### Applicability
 
@@ -20,7 +20,9 @@ Como dito acima, utilizamos o padrão State quando precisamos que um objeto exec
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/State/imagem.jpg)
 
+Nas classes de estado concreto (no exemplo são as classes StatePreparandoMassa, StateAssando, StateEsfriando e a StateCobertura), temos conexões que permitem ir para o próximo estado ou retornar para o estado anterior, ou seja, quando o objeto estiver com o estado StateAssando, ele poderá avançar para o StateEsfriando ou retornar para o StatePreparandoMassa, garantindo o gerenciamento de cada estado e suas funcionalidades.
 
+Sem o padrão State, 
 
 ### Structure
 
