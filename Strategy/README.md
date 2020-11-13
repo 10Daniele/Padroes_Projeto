@@ -26,7 +26,11 @@ A estrutura do padrão Strategy é a seguinte:
 
 ### Participants
 
+Context: classe que reponsável por dfinir e manter uma referência para uma das classes concretas, através da comunicação com a interface Strategy.
 
+Strategy: interface que contém informações comuns para a classe ConcreteStrategy.
+
+ConcreteStrategy: classes com diversas variações (cada classe com sua variação prória), baseando-se na interface Strategy.
 
 ### Sample Code
 
