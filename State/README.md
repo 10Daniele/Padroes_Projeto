@@ -22,8 +22,6 @@ Como dito acima, utilizamos o padrão State quando precisamos que um objeto exec
 
 Nas classes de estado concreto (no exemplo são as classes StatePreparandoMassa, StateAssando, StateEsfriando e a StateCobertura), temos conexões que permitem ir para o próximo estado ou retornar para o estado anterior, ou seja, quando o objeto estiver com o estado StateAssando, ele poderá avançar para o StateEsfriando ou retornar para o StatePreparandoMassa, garantindo o gerenciamento de cada estado e suas funcionalidades.
 
-Sem o padrão State, 
-
 ### Structure
 
 A estrutura do padrão State é a seguinte:
