@@ -44,3 +44,6 @@ Exemplo dos Cupcakes: [Fabricando Cupcakes](https://github.com/10Daniele/Padroes
 
 Exemplo abordado em aula: [Caminho do Pacote](https://github.com/10Daniele/Padroes_Projeto/tree/master/State/Exemplo_Pacote)
 
+No exemplo dos cupcakes, temos a classe abstrata CupcakeState, que funciona como padrão a ser seguido pelas outras classes concretas State. Da mesma forma, a classe abstrata PackageState do exemplo do Pactoe define esse padrão. Como contexto, temos as classes Cupcake (exemplo dos Cupcakes) e Package (exemplo abordado em aula) que definem o estado inicial do objeto.
+
+Ambos os exempos representam processos a serem seguidos de acorodo com uma ordem pré definida. O padrão State nos permite uma maior ampliação de código, sendo que caso fosse necessário incluir uma nova etapa (exemplo: colocar recheio nos cupcakes), com o padrão State esse processo de crescimento é facilitado, pois basta incluir essa nova etapa e indicar essa mudança nas classes de etapas 'anterior' e 'posterior' (seguindo o exemplo, seriam as etapas StateEsfriando e StateCobertura respectivamente). Podemos dizer que ao utilizarmos o padrão State, estamos ampliando visões para o futuro do projeto, tornando mudanças algo mais simples de ser realizado.
