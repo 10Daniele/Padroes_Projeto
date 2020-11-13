@@ -12,7 +12,9 @@ O padrão State busca criar uma máquina de estado, implementando classes para c
 
 ### Motivation
 
-Este padrão possui uma interface State, que contém alguns atributos pré-definidos. Estes atributos necessáriamente serão utilizados nos estados que determinado objeto pode adquirir. Com isso, torna-se possível fazer o gerenciamento de estados, possibilitando determinado comportamento para um objeto de acordo com seu estado atual. Podemos dizer também que uma das principais motivações desse padrão, é reduzir a complexidade ciclomática do programa, ou seja, reduzir caminhos independentes que o sistema pode ter.
+Este padrão possui uma interface State, que contém alguns atributos pré-definidos. Estes atributos necessáriamente serão utilizados nos estados que determinado objeto pode adquirir. Com isso, torna-se possível fazer o gerenciamento de estados, possibilitando determinado comportamento para um objeto de acordo com seu estado atual.
+
+Podemos dizer também que uma das principais motivações desse padrão, é reduzir a complexidade ciclomática do programa, ou seja, reduzir caminhos independentes que o sistema pode ter.
 
 ### Applicability
 
