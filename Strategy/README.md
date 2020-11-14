@@ -44,3 +44,4 @@ Exemplo tratado em aula desconto para alunos: [Desconto de Aluno](https://github
 
 Exemplo de desconto de hotel para crianças: [Desconto para Crianças](https://github.com/10Daniele/Padroes_Projeto/tree/master/Strategy/Exemplo_Desconto_Hotel)
 
+Acima, temos o exemplo que foi abrodado em aula, que trata-se de diferentes possibilidades de deconto da mensalidade de uma faculdade. O outro é o exemplo do hotel, que oferece desconto aos hóspedes crianças, sendo que cada faixa etária apresenta uma estratégia de desconto diferente. Temos DescontoAteDois, DescontoAteCinco e DescontoAteOito, que são as classes de estratégia concreta, que baseiam-se na interface Desconto, e temos também a classe contexto CalculaDiaria.
