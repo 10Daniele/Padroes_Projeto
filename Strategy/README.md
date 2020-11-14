@@ -16,8 +16,11 @@ Este padrão torna o crescimento do sistema algo mais viável, de forma a organi
 
 ### Applicability
 
+Como exemplo para este padrão, podemos citar as formas de descontos que um hotel oferece para bebês e crianças. Para isso, é necessário criar estratégias de diferentes possibilidades de desconto de acordo com as idades. 
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/Strategy/imagem.jpg)
+
+Com o padrão Strategy, cria-se uma classe para cada alterantiva possível, fazendo com que seja possível intercambiar entre as classes dependendo de cada situação. Caso seja necessário incluir novas estratégias e ampliar o sistema, este padrão permite essa ampliação, sem precisar modificar as classes de estratégias que já estão em funcionamento. 
 
 
 ### Structure
