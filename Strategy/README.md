@@ -8,9 +8,11 @@ Classification: Padrão comportamental
 
 ### Intent
 
+O padrão Strategy possui como intenção criar um "intercâmbio" entre classes, de modo a criar diversas estratégias para determinada situação, ou seja, um problema tem várias soluções, e o padrão Strategy permite a criação de classes com essas soluções estratégicas. 
 
 ### Motivation
 
+Este padrão torna o crescimento do sistema algo mais viável, de forma a organizar as estratégias em classes e permitindo que novas possibilidades sejam inclusas de maneira mais simples.
 
 ### Applicability
 
