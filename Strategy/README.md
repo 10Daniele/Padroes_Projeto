@@ -22,6 +22,7 @@ Como exemplo para este padrão, podemos citar as formas de descontos que um hote
 
 Com o padrão Strategy, cria-se uma classe para cada alterantiva possível, fazendo com que seja possível intercambiar entre as classes dependendo de cada situação. Caso seja necessário incluir novas estratégias e ampliar o sistema, este padrão permite essa ampliação, sem precisar modificar as classes de estratégias que já estão em funcionamento. 
 
+Em Sample Code temos o exemplo concretizado do hotel, que possui três crianças, e cada uma delas enquadra-se em uma estratégia diferente, sendo que sua diária varia de acordo com a categoria a qual ela se encaixa.
 
 ### Structure
 
