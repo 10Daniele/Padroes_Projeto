@@ -8,11 +8,15 @@ Classification: Padrão criacional
 
 ### Intent
 
+A intenção do padrão Factory Method é reduzir o acoplamento entre classes, utilizando o princício da responsabilidade única, atribuindo essa função à um único ponto, sendo que em um cenário com diferentes classes, o padrão auxilia na implementação e em um futuro crescimento do número de classes (mas as classes devem possuir uma certa correlação).
 
 ### Motivation
 
+Com este padrão, os objetos serão criados na Fábrica, sendo que o construtor de todos os objetos estará alocado em um único lugar, de forma a encapsular a criação dos mesmos. Deste modo, as subclasses que deverão tomar a decisão de quais objetos deverão ser criados.
 
 ### Applicability
+
+Este padrão pode ser utilizado quando 
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/FactoryMethod/imagem.png)
 
