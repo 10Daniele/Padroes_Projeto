@@ -19,9 +19,19 @@ Classification: Padrão criacional
 
 ### Structure
 
+A estrutura do padrão Factory Method é a seguinte:
+
+![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/FactoryMethod/Structure.png)
 
 ### Participants
 
+Client:
+
+Creator:
+
+IProduct:
+
+ProductX:
 
 ### Sample Code
 
