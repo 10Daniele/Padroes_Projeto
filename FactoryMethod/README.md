@@ -25,13 +25,13 @@ A estrutura do padrão Factory Method é a seguinte:
 
 ### Participants
 
-Client:
+Client: classe que irá depender da interface IProduct
 
-Creator:
+Creator: essa classe irá definir um método Factory Mathod, que deverá retornar os produtos concretos que foram criados.
 
-IProduct:
+IProduct: é uma interface que irá definir o "modelo" dos objetos que serão criados pelo Factory (obejtos serão produzidos pelo Creator).
 
-ProductX:
+ProductX: são os produtos que podem ser criados, baseando-se na interface IProduct, ou seja, é aqui que a interface IProduct será utilizada (os produtos deverão seguir o modelo da interface).
 
 ### Sample Code
 
