@@ -8,8 +8,10 @@ Classification: Padrão criacional
 
 ### Intent
 
+Este padrão possui a capacidade de agrupar os objetos de acordo com algumas características definidas ("famílias"), de modo a facilitar a implementação quando tem-se variedades de instâncias. Utilizando interfaces, o sistema consegue diminuir o acoplamento entre objetos (mesmo que esses objetos possuam características parecidas), 
 
 ### Motivation
+
 
 
 ### Applicability
