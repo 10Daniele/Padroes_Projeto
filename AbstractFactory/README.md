@@ -26,15 +26,15 @@ A estrutura do padrão Abstract Factory é a seguinte:
 
 ### Participants
 
-Client: 
+Client: classe que conecta-se com as interfaces (AbstractFactory e AbstractProductY).
 
-AbstractFactory:
+AbstractFactory: interface que servirá de base para classes de fábricas concretas.
 
-ConcreteFactoryX:
+ConcreteFactoryX: é a classe que tem como função instanciar os produtos, seguindo o modelo da fábrica abstrata.
 
-AbstractProductY:
+AbstractProductY: interfaces que servirão de referência para alguns produtos específicos (produtos com carcterísicas semelhantes irão utilizar determinada classe abstrata como referência).
 
-ProductYX:
+ProductYX: são considerados os produtos concretos, implementados a partir da interface AbstractProductY, que são "agrupados" de acordo com suas características.
 
 ### Sample Code
 
