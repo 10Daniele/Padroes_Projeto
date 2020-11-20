@@ -16,9 +16,10 @@ Com este padrão, os objetos serão criados na Fábrica, sendo que o construtor 
 
 ### Applicability
 
-Este padrão pode ser utilizado quando 
+Este padrão pode ser utilizado quando há a necessidade de criar uma estrutura complexa de classes, sendo que essas classes tem "intenções" semenhantes. Para isso, o Factory Method utiliza-se de hierarquia e encapsulamento para facilitar a criação dessas classes. Como exemplo, temos uma interface chocolate, que é a base para a criação de outras classes. 
 
 ![imagem](https://github.com/10Daniele/Padroes_Projeto/blob/master/FactoryMethod/imagem.png)
+
 
 
 ### Structure
